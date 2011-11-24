@@ -1,0 +1,19 @@
+Metadata-Version: 1.0
+Name: tornado-tools
+Version: 0.2.7
+Summary: Classes and functions for extending Tornado
+Home-page: http://github.com/sitnin
+Author: Gregory Sitnin
+Author-email: sitnin@gmail.com
+License: http://www.apache.org/licenses/LICENSE-2.0
+Download-URL: https://github.com/sitnin/tornado_tools/tarball/0.2.7
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Web Environment
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Topic :: Internet :: WWW/HTTP
+Classifier: Topic :: Software Development :: Libraries :: Python Modules

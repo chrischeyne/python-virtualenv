@@ -1,0 +1,46 @@
+Metadata-Version: 1.0
+Name: pointfree
+Version: 1.0.0
+Summary: Pointfree style toolkit for Python
+Home-page: https://github.com/markshroyer/pointfree
+Author: Mark Shroyer
+Author-email: code@markshroyer.com
+License: UNKNOWN
+Description: 
+        pointfree is a small module that makes certain functional programming
+        constructs more convenient to use in Python.
+        
+        Specifically, it provides:
+        
+        * A decorator to enable *automatic* partial application of functions and
+          methods.
+        * Notations for function composition through operator overloading.
+        * Helper functions to make composing generators more elegant.
+        
+        The objective is to support the `pointfree programming style`_ in a
+        lightweight and easy to use manner -- and in particular, to serve as a nice
+        syntax for the kind of generator pipelines described in David Beazley's
+        PyCon 2008 presentation, `"Generator Tricks for Systems Programmers"`_.
+        
+        .. _`pointfree programming style`: http://www.haskell.org/haskellwiki/Pointfree
+        
+        .. _`"Generator Tricks for Systems Programmers"`: http://www.dabeaz.com/generators/Generators.pdf
+        
+        Full documentation is available on the web at:
+        
+        http://markshroyer.com/docs/pointfree/latest/
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.6
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.0
+Classifier: Programming Language :: Python :: 3.1
+Classifier: Programming Language :: Python :: 3.2
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Software Development

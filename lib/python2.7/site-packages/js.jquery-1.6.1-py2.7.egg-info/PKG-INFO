@@ -1,0 +1,60 @@
+Metadata-Version: 1.0
+Name: js.jquery
+Version: 1.6.1
+Summary: fanstatic jQuery.
+Home-page: UNKNOWN
+Author: Fanstatic Developers
+Author-email: fanstatic@googlegroups.com
+License: BSD
+Description: js.jquery
+        *********
+        
+        Introduction
+        ============
+        
+        This library packages `jQuery`_ for `fanstatic`_. It is aware of jQuery's
+        structure and different modes (normal, minified).
+        
+        .. _`fanstatic`: http://fanstatic.org
+        .. _`jQuery`: http://jquery.com/
+        
+        This requires integration between your web framework and ``fanstatic``,
+        and making sure that the original resources (shipped in the ``resources``
+        directory in ``js.jquery``) are published to some URL.
+        
+        How to use?
+        ===========
+        
+        You can import jQuery from ``js.jquery`` and ``need`` it where you want
+        these resources to be included on a page::
+        
+          >>> from js.jquery import jquery
+          >>> jquery.need()
+        
+        .. _`fanstatic`: http://fanstatic.org
+        
+        CHANGES
+        *******
+        
+        1.6.1 (2011-05-24)
+        ==================
+        
+        - Update to v 1.6.1
+        
+        
+        1.6 (2011-05-07)
+        ================
+        
+        - Update to v 1.6
+        
+        
+        1.4.4 (2011-01-06)
+        ==================
+        
+        - Rewrote `hurry.jquery`_ to use `fanstatic`_ instead of `hurry.resource`_.
+        
+        .. _`hurry.jquery`: http://pypi.python.org/pypi/hurry.jquery
+        .. _`hurry.resource`: http://pypi.python.org/pypi/hurry.resource
+        .. _`fanstatic`: http://fanstatic.org
+        
+Platform: UNKNOWN

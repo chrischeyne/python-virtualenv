@@ -1,0 +1,56 @@
+Metadata-Version: 1.0
+Name: js.jquery-flot
+Version: 0.7-2
+Summary: Fanstatic packaging of flot
+Home-page: UNKNOWN
+Author: Fanstatic Developers
+Author-email: fanstatic@googlegroups.com
+License: BSD
+Description: js.jquery_flot
+        **************
+        
+        Introduction
+        ============
+        
+        This library packages `flot`_ for `fanstatic`_.
+        
+        .. _`fanstatic`: http://fanstatic.org
+        .. _`flot`: http://code.google.com/p/flot/
+        
+        This requires integration between your web framework and ``fanstatic``,
+        and making sure that the original resources (shipped in the ``resources``
+        directory in ``js.jquery_flot``) are published to some URL.
+        
+        
+        How to use?
+        ===========
+        
+        
+        You can import ``flot`` from ``js.jquery_flot`` and ``need`` it where you want
+        these resources to be included on a page::
+        
+          >>> from js.jquery_flot import flot
+          >>> flot.need()
+        
+        
+        CHANGES
+        *******
+        
+        0.7-2 (2011-09-09)
+        ==================
+        
+        - Fix brown paper bag release.
+        
+        
+        0.7-1 (2011-09-09)
+        ==================
+        
+        - Expose selection functionality.
+        
+        
+        0.7 (2011-09-08)
+        ================
+        
+        - Initial release.
+        
+Platform: UNKNOWN

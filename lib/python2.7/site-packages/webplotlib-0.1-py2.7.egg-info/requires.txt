@@ -1,0 +1,5 @@
+Django
+matplotlib
+numpy
+pytest >= 2
+setuptools

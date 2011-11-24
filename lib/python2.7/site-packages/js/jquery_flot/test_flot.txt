@@ -1,0 +1,10 @@
+How to use?
+===========
+
+
+You can import ``flot`` from ``js.jquery_flot`` and ``need`` it where you want
+these resources to be included on a page::
+
+  >>> from js.jquery_flot import flot
+  >>> flot.need()
+
